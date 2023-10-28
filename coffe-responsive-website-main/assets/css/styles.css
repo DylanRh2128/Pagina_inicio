@@ -37,11 +37,27 @@ body{
 }
 
 ul{
-  list-style: none;
+  width: 100%;
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 3rem;
+}
+
+.Nombre{
+  font-weight: 600;
+}
+
+li{
+  font-size: .938rem;
+  display: inline-block;
+  color: #ffff;
+  transition: 0.4s;
 }
 
 a{
   text-decoration: none;
+  font-style: aqua;
 }
 
 img{
@@ -51,7 +67,10 @@ img{
 
 button{
   background-color: var(--first-color-darken);
-  font-size: 40px;  
+  font-size: 40px;
+  color: var(--white-color);  
+  border-radius: 10px;
+  
 
 
 }
